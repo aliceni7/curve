@@ -10,10 +10,12 @@ z0  z1  ... zn
 import math
 
 def make_bezier():
-    pass
+    matrix = [ [-1,3,-3,1],[3,-6,3,0],[-3,3,0,0],[1,0,0,0] ]
+    return matrix
 
 def make_hermite():
-    pass
+    matrix = [ [2,-3,0,1],[-2,3,0,0],[1,-2,1,0],[1,-1,0,0] ]
+    return matrix
 
 def generate_curve_coefs( p0, p1, p2, p3, t ):
     pass
