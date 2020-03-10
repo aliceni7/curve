@@ -18,7 +18,8 @@ transform = new_matrix()
 # print_matrix( make_rotY(math.pi/4) )
 # print
 # print_matrix( make_rotZ(math.pi/4) )
-print_matrix( make_bezier() )
-print_matrix( make_hermite() )
-print_matrix( generate_curve_coefs(1,2,3,4,1) )
-#parse_file( 'script', edges, transform, screen, color )
+#print_matrix( make_bezier() )
+#print_matrix( make_hermite() )
+#print_matrix( generate_curve_coefs(1,2,3,4,'bezier') )
+
+parse_file( 'script', edges, transform, screen, color )
